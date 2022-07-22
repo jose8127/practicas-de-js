@@ -37,3 +37,11 @@ getMeses(mesesitos);
 afortunados(mesesitos);
 
 mesesAfortunados(mesesitos);
+
+
+function convertirARG_USD(pesos) {
+    return pesos / 338;
+}
+
+const usds = convertirARG_USD(100000);
+console.log(`$100000 son USD ${usds.toFixed(2)}`);
